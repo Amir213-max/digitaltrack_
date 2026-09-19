@@ -1,0 +1,1 @@
+import{t as e}from"./section-reveal-zVdRusEw.js";function t(){e(`.process`)}document.addEventListener(`DOMContentLoaded`,t);

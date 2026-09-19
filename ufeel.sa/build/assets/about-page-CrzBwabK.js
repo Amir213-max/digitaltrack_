@@ -1,0 +1,1 @@
+import{t as e}from"./section-reveal-zVdRusEw.js";var t=[`.about-hero`,`.about-story`,`.about-values`,`.about-stats`];function n(){t.forEach(t=>e(t))}document.addEventListener(`DOMContentLoaded`,n);

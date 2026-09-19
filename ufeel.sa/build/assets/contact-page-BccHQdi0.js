@@ -1,0 +1,1 @@
+import{t as e}from"./section-reveal-zVdRusEw.js";var t=[`.contact-page-hero`,`.contact-page-quick`,`.contact-page-after`,`.contact-page-faq`];function n(){t.forEach(t=>e(t))}document.addEventListener(`DOMContentLoaded`,n);

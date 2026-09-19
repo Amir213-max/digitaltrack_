@@ -1,0 +1,1 @@
+import{t as e}from"./section-reveal-zVdRusEw.js";var t=[`.legal-page-hero`,`.legal-page-content`];function n(){t.forEach(t=>e(t))}document.addEventListener(`DOMContentLoaded`,n);

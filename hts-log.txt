@@ -1,0 +1,27 @@
+HTTrack3.50-2 launched on Fri, 18 Sep 2026 16:08:28 at https://ufeel.sa/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2%f#f -F "Mozilla/5.0 (compatible; HTTrack; +https://www.httrack.com/)" -%F "<!-- Mirrored from {url} by HTTrack Website Copier/3.x [XR&CO], {date} -->" -%l "en, *" https://ufeel.sa/ -O1 "D:\copy\wooooo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:09:53	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://ufeel.sa/)
+16:09:54	Error: 	"Method Not Allowed" (405) at link https://ufeel.sa/_boost/browser-logs (from https://ufeel.sa/)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/build/assets/services-page-pioNIHok.js (from https://ufeel.sa/services)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/blog/كيف-تقلل-الأنظمة-الداخلية-أخطاء-التشغيل (from https://ufeel.sa/blog)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/storage/blog/featured/btU4DcwQKqyQk4sk5wqtOquRIAWgVcAVdtyYZa16.webp (from https://ufeel.sa/blog)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/blog/تطبيقات-الجوال-للشركات-لماذا-أصبح-امتلاك-تطبيق-ضرورة-للنمو-والمنافسة (from https://ufeel.sa/blog)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/blog/الذكاء-الاصطناعي-في-الشركات-كيف-تغير-ai-طريقة-إدارة-الأعمال-وخدمة-العملاء (from https://ufeel.sa/blog)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/blog/ما-هي-أتمتة-الأعمال-وكيف-تساعد-الشركات-على-تحسين-الإنتاجية (from https://ufeel.sa/blog)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/blog/دليل-شامل-كيف-تختار-شركة-برمجة-احترافية-لتطوير-موقع-أو-تطبيق-لشركتك (from https://ufeel.sa/blog)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/blog/كيف-يساعد-التحول-الرقمي-للشركات-على-زيادة-الكفاءة-وتقليل-التكاليف (from https://ufeel.sa/blog)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/build/assets/blog-page-D_6THfF5.js (from https://ufeel.sa/blog)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/build/assets/jobs-page-E8EamvUf.js (from https://ufeel.sa/jobs)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/build/assets/contact-page-BccHQdi0.js (from https://ufeel.sa/contact-us)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/build/assets/service-detail-B07oshfN.js (from https://ufeel.sa/services/أنظمة-crm-لإدارة-العملاء-والمبيعات)
+16:10:25	Error: 	"Too Many Requests" (429) at link https://ufeel.sa/storage/blog/og/cgQWbL2g7dClUPKTMWJWibZqkBhOWCJDqkW0idpQ.webp (from https://ufeel.sa/blog/product-partner-vs-software-vendor-وش-الفرق-وأيهم-يحتاج-منتجك)
+16:10:25	Info: 	Retry after error -4 (No data (connection closed)) at link https://ufeel.sa/build/assets/blog-post-DrbnFPru.js (from https://ufeel.sa/blog/product-partner-vs-software-vendor-وش-الفرق-وأيهم-يحتاج-منتجك)
+
+HTTrack Website Copier/3.50-2 mirror complete in 1 minutes 59 seconds : 110 links scanned, 93 files written (4951362 bytes overall) [2335943 bytes received at 19629 bytes/sec], 4835400 bytes transferred using HTTP compression in 47 files, ratio 26%, 9.1 requests per connection
+(15 errors, 0 warnings, 1 messages)

@@ -1,0 +1,1 @@
+import{t as e}from"./section-reveal-zVdRusEw.js";function t(){e(`.about-brief`)}document.addEventListener(`DOMContentLoaded`,t);

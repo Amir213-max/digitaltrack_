@@ -1,0 +1,1 @@
+function e(e,t,{rootMargin:n=`200px 0px`}={}){if(e){if(typeof IntersectionObserver>`u`){t(e);return}new IntersectionObserver((e,n)=>{e.forEach(e=>{e.isIntersecting&&(n.unobserve(e.target),t(e.target))})},{rootMargin:n}).observe(e)}}export{e as t};
