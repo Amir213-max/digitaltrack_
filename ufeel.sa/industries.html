@@ -44,11 +44,11 @@
 <link href="sitemap.xml" rel="sitemap" title="Sitemap" type="application/xml"/>
 <meta content="نفهم تحديات كل قطاع ونقدم البنية التقنية المناسبة — الطبي، المطاعم، التجزئة، الشركات، التعليم، والصناعة." name="description"/>
 <title>قطاعاتنا | المسار الرقمي | Digital Track — حلول تقنية لكل قطاع</title>
-<meta content="images/digital-track-logo.jpg" name="image"/>
+<meta content="images/digital-track-logo.png" name="image"/>
 <meta content="قطاعاتنا | المسار الرقمي | Digital Track" property="og:title"/>
 <meta content="حلول تقنية مصممة خصيصاً لتحديات قطاعك مع المسار الرقمي." property="og:description"/>
 <meta content="ar" property="og:locale"/>
-<meta content="images/digital-track-logo.jpg" property="og:image"/>
+<meta content="images/digital-track-logo.png" property="og:image"/>
 <meta content="2048" property="og:image:width"/>
 <meta content="784" property="og:image:height"/>
 <meta content="industries.html" property="og:url"/>
@@ -430,13 +430,13 @@
 </noscript>
 <div aria-hidden="true" class="site-body__backdrop"></div>
 <header :class="{ 'site-header--floating': scrolled }" @scroll.window.passive="onScroll()" class="site-header fixed inset-x-0 top-0 z-50" dir="rtl" lang="ar" role="banner" x-data="siteHeader({ threshold: 50 })" x-init="init()">
-<a class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:right-2 focus:z-[60] focus:rounded-lg focus:bg-[#67e8f9] focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-[#0a1224]" href="#main-content">
+<a class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:right-2 focus:z-[60] focus:rounded-lg focus:bg-[#00d4ff] focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-[#07121f]" href="#main-content">
         تخطي إلى المحتوى
     </a>
 <div class="site-header__shell transition-all duration-500 ease-out">
 <div class="site-header__inner mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 sm:px-8">
 <a aria-label="المسار الرقمي | Digital Track — الرئيسية" class="site-header__logo relative z-10 shrink-0" href="index.html">
-<img alt="المسار الرقمي | Digital Track" class="h-8 w-auto object-contain sm:h-9" decoding="async" height="40" src="images/digital-track-logo.jpg" width="120"/>
+<img alt="المسار الرقمي | Digital Track" class="h-12 w-auto object-contain sm:h-14" decoding="async" height="40" src="images/digital-track-mark.png" width="120" style="height:2.85rem;width:auto;max-width:8.5rem;object-fit:contain;display:block">
 </a>
 <nav aria-label="القائمة الرئيسية" class="hidden items-center gap-0.5 lg:flex">
 <a class="relative rounded-lg px-3 py-2 text-sm font-medium transition-colors duration-200 text-white/60 hover:text-white/90 hover:bg-white/[0.04]" href="index.html">
@@ -462,7 +462,7 @@
 </a>
 </nav>
 <div class="flex items-center gap-2 sm:gap-3">
-<a class="site-header__cta hidden rounded-xl border border-[#60a5fa]/35 bg-linear-to-l from-[#60a5fa] to-[#3b82f6] px-4 py-2 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(96,165,250,0.28)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_32px_rgba(59,130,246,0.38)] sm:inline-flex" href="index.html#contact-cta">
+<a class="site-header__cta hidden rounded-xl border border-[#00d4ff]/40 bg-linear-to-l from-[#00d4ff] to-[#0088c0] px-4 py-2 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(0,180,232,0.28)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_32px_rgba(0,144,200,0.38)] sm:inline-flex" href="index.html#contact-cta">
                     احجز استشارتك مجانًا
                 </a>
 <button :aria-expanded="menuOpen.toString()" @click="toggleMenu()" aria-controls="site-mobile-menu" class="site-header__toggle relative z-10 flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.04] text-white/80 transition-colors hover:border-white/20 hover:text-white lg:hidden" type="button">
@@ -478,8 +478,8 @@
 </div>
 </div>
 <div aria-label="قائمة التنقل" aria-modal="true" class="fixed inset-0 z-40 lg:hidden" id="site-mobile-menu" role="dialog" x-cloak="" x-show="menuOpen">
-<div @click="closeMenu()" class="absolute inset-0 bg-[#0a1224]/80 backdrop-blur-sm" x-show="menuOpen" x-transition:enter="transition-opacity ease-out duration-300" x-transition:enter-end="opacity-100" x-transition:enter-start="opacity-0" x-transition:leave="transition-opacity ease-in duration-200" x-transition:leave-end="opacity-0" x-transition:leave-start="opacity-100"></div>
-<aside @click.outside="closeMenu()" class="absolute top-0 right-0 flex h-full w-[min(20rem,88vw)] flex-col border-l border-white/[0.08] bg-[#0a1224]/95 p-5 shadow-2xl backdrop-blur-xl" x-show="menuOpen" x-transition:enter="transition-transform ease-out duration-300" x-transition:enter-end="translate-x-0" x-transition:enter-start="translate-x-full" x-transition:leave="transition-transform ease-in duration-200" x-transition:leave-end="translate-x-full" x-transition:leave-start="translate-x-0">
+<div @click="closeMenu()" class="absolute inset-0 bg-[#07121f]/80 backdrop-blur-sm" x-show="menuOpen" x-transition:enter="transition-opacity ease-out duration-300" x-transition:enter-end="opacity-100" x-transition:enter-start="opacity-0" x-transition:leave="transition-opacity ease-in duration-200" x-transition:leave-end="opacity-0" x-transition:leave-start="opacity-100"></div>
+<aside @click.outside="closeMenu()" class="absolute top-0 right-0 flex h-full w-[min(20rem,88vw)] flex-col border-l border-white/[0.08] bg-[#07121f]/95 p-5 shadow-2xl backdrop-blur-xl" x-show="menuOpen" x-transition:enter="transition-transform ease-out duration-300" x-transition:enter-end="translate-x-0" x-transition:enter-start="translate-x-full" x-transition:leave="transition-transform ease-in duration-200" x-transition:leave-end="translate-x-full" x-transition:leave-start="translate-x-0">
 <div class="mb-6 flex items-center justify-between">
 <span class="text-sm font-medium text-white/50">القائمة</span>
 <button @click="closeMenu()" class="flex h-9 w-9 items-center justify-center rounded-lg border border-white/10 text-white/70 hover:text-white" type="button">
@@ -512,127 +512,127 @@
     تواصل معنا
 </a>
 </nav>
-<a @click="closeMenu()" class="mt-6 flex w-full items-center justify-center rounded-xl border border-[#60a5fa]/35 bg-linear-to-l from-[#60a5fa] to-[#3b82f6] px-4 py-3 text-sm font-semibold text-white" href="index.html#contact-cta">
+<a @click="closeMenu()" class="mt-6 flex w-full items-center justify-center rounded-xl border border-[#00d4ff]/40 bg-linear-to-l from-[#00d4ff] to-[#0088c0] px-4 py-3 text-sm font-semibold text-white" href="index.html#contact-cta">
                 احجز استشارتك مجانًا
             </a>
 </aside>
 </div>
 </header>
 <main class="overflow-x-clip" id="main-content">
-<section aria-labelledby="industries-hero-title" class="about-hero relative overflow-hidden bg-[#0a1224] pt-28 pb-16 sm:pt-32 sm:pb-20 lg:pb-24" dir="rtl" lang="ar">
+<section aria-labelledby="industries-hero-title" class="about-hero relative overflow-hidden bg-[#07121f] pt-28 pb-16 sm:pt-32 sm:pb-20 lg:pb-24" dir="rtl" lang="ar">
 <div aria-hidden="true" class="pointer-events-none absolute inset-0">
-<div class="absolute -top-20 right-0 h-72 w-72 rounded-full bg-[#67e8f9]/8 blur-[100px]"></div>
-<div class="absolute bottom-0 left-0 h-56 w-56 rounded-full bg-[#60a5fa]/6 blur-[90px]"></div>
-<div class="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#67e8f9]/30 to-transparent"></div>
+<div class="absolute -top-20 right-0 h-72 w-72 rounded-full bg-[#00d4ff]/8 blur-[100px]"></div>
+<div class="absolute bottom-0 left-0 h-56 w-56 rounded-full bg-[#00b8e8]/6 blur-[90px]"></div>
+<div class="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#00d4ff]/30 to-transparent"></div>
 </div>
 <div class="relative mx-auto max-w-3xl px-5 text-center sm:px-8">
-<p class="text-xs font-medium tracking-[0.18em] text-[#67e8f9] uppercase" data-reveal="">
+<p class="text-xs font-medium tracking-[0.18em] text-[#00d4ff] uppercase" data-reveal="">
             قطاعات عملائنا
         </p>
 <h1 class="mt-4 text-3xl font-bold leading-[1.2] text-white sm:mt-5 sm:text-4xl lg:text-5xl" data-reveal="" data-reveal-delay="80" id="industries-hero-title">
-            حلول تقنية مصممة خصيصاً <span class="text-[#67e8f9]">لتحديات قطاعك</span>
+            حلول تقنية مصممة خصيصاً <span class="text-[#00d4ff]">لتحديات قطاعك</span>
 </h1>
 <p class="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/50 sm:text-lg sm:leading-8" data-reveal="" data-reveal-delay="160">
             نفهم التفاصيل التشغيلية والتحديات الخاصة بكل نشاط تجاري ونقدم البنية التقنية البرمجية والميدانية المناسبة.
         </p>
 </div>
 </section>
-<section aria-labelledby="industries-grid-title" class="industries-grid relative overflow-hidden border-t border-white/[0.06] bg-[#0a1224] py-14 sm:py-16 lg:py-20" dir="rtl" lang="ar">
-<div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#67e8f9]/40 to-transparent"></div>
+<section aria-labelledby="industries-grid-title" class="industries-grid relative overflow-hidden border-t border-white/[0.06] bg-[#07121f] py-14 sm:py-16 lg:py-20" dir="rtl" lang="ar">
+<div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#00d4ff]/40 to-transparent"></div>
 <div class="relative mx-auto max-w-6xl px-5 sm:px-8">
 <header class="mx-auto max-w-2xl text-center">
-<p class="text-xs font-medium tracking-[0.18em] text-[#67e8f9] uppercase" data-reveal="">القطاعات التي نخدمها</p>
-<h2 class="mt-2 bg-linear-to-l from-white to-[#a5f3fc] bg-clip-text text-2xl font-semibold text-transparent sm:text-3xl" data-reveal="" data-reveal-delay="80" id="industries-grid-title">
+<p class="text-xs font-medium tracking-[0.18em] text-[#00d4ff] uppercase" data-reveal="">القطاعات التي نخدمها</p>
+<h2 class="mt-2 bg-linear-to-l from-white to-[#9aefff] bg-clip-text text-2xl font-semibold text-transparent sm:text-3xl" data-reveal="" data-reveal-delay="80" id="industries-grid-title">
                 نعرف أن لكل نشاط مساره التقني الخاص
             </h2>
 </header>
 <div class="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 lg:grid-cols-3 sm:gap-5">
-<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#67e8f9]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(103,232,249,0.14)] sm:p-6" data-reveal="" data-reveal-delay="200" href="#healthcare">
-<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#67e8f9]/20 to-[#60a5fa]/10"></span>
+<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#00d4ff]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(0,212,255,0.14)] sm:p-6" data-reveal="" data-reveal-delay="200" href="#healthcare">
+<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#00d4ff]/20 to-[#00b8e8]/10"></span>
 <div class="mb-4 flex items-start justify-between gap-3">
-<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#67e8f9]/18 to-[#60a5fa]/10 text-[#67e8f9]">
+<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#00d4ff]/18 to-[#00b8e8]/10 text-[#00d4ff]">
 <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
 </span>
 <span class="font-mono text-[10px] font-semibold tracking-widest text-white/30 uppercase">Healthcare</span>
 </div>
 <h2 class="text-base font-semibold leading-7 text-white sm:text-lg">القطاع الطبي والخدمات الصحية</h2>
 <p class="mt-2.5 text-sm leading-6 text-white/55">تحول رقمي شامل للمستشفيات والعيادات والمجمعات الطبية يضمن سلامة البيانات وكفاءة خدمة المريض.</p>
-<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#67e8f9]">
+<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#00d4ff]">
                     تفاصيل القطاع
                     <svg class="h-4 w-4 transition-transform group-hover:-translate-x-1" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M10.293 4.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L13.586 11H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
 </span>
 </a>
-<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#67e8f9]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(103,232,249,0.14)] sm:p-6" data-reveal="" data-reveal-delay="240" href="#restaurants">
-<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#67e8f9]/20 to-[#60a5fa]/10"></span>
+<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#00d4ff]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(0,212,255,0.14)] sm:p-6" data-reveal="" data-reveal-delay="240" href="#restaurants">
+<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#00d4ff]/20 to-[#00b8e8]/10"></span>
 <div class="mb-4 flex items-start justify-between gap-3">
-<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#67e8f9]/18 to-[#60a5fa]/10 text-[#67e8f9]">
+<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#00d4ff]/18 to-[#00b8e8]/10 text-[#00d4ff]">
 <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8.25v-1.5m0 1.5c-1.355 0-2.697.056-4.024.166C6.845 8.51 6 9.473 6 10.608v2.513m6-4.871c1.355 0 2.697.056 4.024.166C17.155 8.51 18 9.473 18 10.608v2.513M15 8.25v-1.5m-6 1.5v-1.5m12 9.75-1.5.75a3.354 3.354 0 0 1-3 0 3.354 3.354 0 0 0-3 0 3.354 3.354 0 0 1-3 0 3.354 3.354 0 0 0-3 0 3.354 3.354 0 0 1-3 0L3 16.5m15-3.379a48.474 48.474 0 0 0-6-.371c-2.032 0-4.034.126-6 .371m12 0c.39 0 .743.214.876.564l.14.35c.25.625-.26 1.25-.926 1.25H4.91c-.666 0-1.176-.625-.926-1.25l.14-.35c.133-.35.486-.564.876-.564Z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
 </span>
 <span class="font-mono text-[10px] font-semibold tracking-widest text-white/30 uppercase">Restaurants</span>
 </div>
 <h2 class="text-base font-semibold leading-7 text-white sm:text-lg">المطاعم والمقاهي والأغذية</h2>
 <p class="mt-2.5 text-sm leading-6 text-white/55">أنظمة نقاط بيع سريعة وتكامل تام بين طلبات المطبخ، تطبيقات التوصيل، والمستودع.</p>
-<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#67e8f9]">
+<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#00d4ff]">
                     تفاصيل القطاع
                     <svg class="h-4 w-4 transition-transform group-hover:-translate-x-1" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M10.293 4.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L13.586 11H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
 </span>
 </a>
-<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#67e8f9]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(103,232,249,0.14)] sm:p-6" data-reveal="" data-reveal-delay="280" href="#retail">
-<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#67e8f9]/20 to-[#60a5fa]/10"></span>
+<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#00d4ff]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(0,212,255,0.14)] sm:p-6" data-reveal="" data-reveal-delay="280" href="#retail">
+<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#00d4ff]/20 to-[#00b8e8]/10"></span>
 <div class="mb-4 flex items-start justify-between gap-3">
-<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#67e8f9]/18 to-[#60a5fa]/10 text-[#67e8f9]">
+<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#00d4ff]/18 to-[#00b8e8]/10 text-[#00d4ff]">
 <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
 </span>
 <span class="font-mono text-[10px] font-semibold tracking-widest text-white/30 uppercase">Retail</span>
 </div>
 <h2 class="text-base font-semibold leading-7 text-white sm:text-lg">التجزئة والتجارة</h2>
 <p class="mt-2.5 text-sm leading-6 text-white/55">ربط الفروع والمتاجر الإلكترونية مع المخازن وأنظمة المحاسبة والربط مع هيئة الزكاة.</p>
-<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#67e8f9]">
+<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#00d4ff]">
                     تفاصيل القطاع
                     <svg class="h-4 w-4 transition-transform group-hover:-translate-x-1" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M10.293 4.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L13.586 11H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
 </span>
 </a>
-<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#67e8f9]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(103,232,249,0.14)] sm:p-6" data-reveal="" data-reveal-delay="320" href="#corporate">
-<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#67e8f9]/20 to-[#60a5fa]/10"></span>
+<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#00d4ff]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(0,212,255,0.14)] sm:p-6" data-reveal="" data-reveal-delay="320" href="#corporate">
+<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#00d4ff]/20 to-[#00b8e8]/10"></span>
 <div class="mb-4 flex items-start justify-between gap-3">
-<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#67e8f9]/18 to-[#60a5fa]/10 text-[#67e8f9]">
+<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#00d4ff]/18 to-[#00b8e8]/10 text-[#00d4ff]">
 <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" stroke-linecap="round" stroke-linejoin="round"></path></svg>
 </span>
 <span class="font-mono text-[10px] font-semibold tracking-widest text-white/30 uppercase">Corporate</span>
 </div>
 <h2 class="text-base font-semibold leading-7 text-white sm:text-lg">الشركات وخدمات الأعمال</h2>
 <p class="mt-2.5 text-sm leading-6 text-white/55">بنية تحتية برمجية وشبكية متكاملة تضمن استقرار العمليات وأتمتة دورات المبيعات والمالية.</p>
-<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#67e8f9]">
+<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#00d4ff]">
                     تفاصيل القطاع
                     <svg class="h-4 w-4 transition-transform group-hover:-translate-x-1" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M10.293 4.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L13.586 11H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
 </span>
 </a>
-<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#67e8f9]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(103,232,249,0.14)] sm:p-6" data-reveal="" data-reveal-delay="360" href="#education">
-<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#67e8f9]/20 to-[#60a5fa]/10"></span>
+<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#00d4ff]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(0,212,255,0.14)] sm:p-6" data-reveal="" data-reveal-delay="360" href="#education">
+<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#00d4ff]/20 to-[#00b8e8]/10"></span>
 <div class="mb-4 flex items-start justify-between gap-3">
-<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#67e8f9]/18 to-[#60a5fa]/10 text-[#67e8f9]">
+<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#00d4ff]/18 to-[#00b8e8]/10 text-[#00d4ff]">
 <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.606 50.606 0 0 0-2.765-.247m15.248 0a50.69 50.69 0 0 1 2.765-.247m-15.248 0 2.403-4.407a2.25 2.25 0 0 1 1.964-1.107h8.172a2.25 2.25 0 0 1 1.964 1.107l2.403 4.407" stroke-linecap="round" stroke-linejoin="round"></path></svg>
 </span>
 <span class="font-mono text-[10px] font-semibold tracking-widest text-white/30 uppercase">Education</span>
 </div>
 <h2 class="text-base font-semibold leading-7 text-white sm:text-lg">التعليم والتدريب</h2>
 <p class="mt-2.5 text-sm leading-6 text-white/55">منصات إلكترونية ومباني رقمية آمنة للمدارس والمعاهد والمراكز التعليمية.</p>
-<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#67e8f9]">
+<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#00d4ff]">
                     تفاصيل القطاع
                     <svg class="h-4 w-4 transition-transform group-hover:-translate-x-1" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M10.293 4.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L13.586 11H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
 </span>
 </a>
-<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#67e8f9]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(103,232,249,0.14)] sm:p-6" data-reveal="" data-reveal-delay="400" href="#industrial">
-<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#67e8f9]/20 to-[#60a5fa]/10"></span>
+<a class="group relative flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.03] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#00d4ff]/35 hover:bg-white/[0.045] hover:shadow-[0_14px_44px_rgba(0,212,255,0.14)] sm:p-6" data-reveal="" data-reveal-delay="400" href="#industrial">
+<span aria-hidden="true" class="pointer-events-none absolute inset-x-6 top-0 h-px bg-linear-to-l from-[#00d4ff]/20 to-[#00b8e8]/10"></span>
 <div class="mb-4 flex items-start justify-between gap-3">
-<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#67e8f9]/18 to-[#60a5fa]/10 text-[#67e8f9]">
+<span aria-hidden="true" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-linear-to-br from-[#00d4ff]/18 to-[#00b8e8]/10 text-[#00d4ff]">
 <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205 3 1m-3-1V7.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
 </span>
 <span class="font-mono text-[10px] font-semibold tracking-widest text-white/30 uppercase">Industrial</span>
 </div>
 <h2 class="text-base font-semibold leading-7 text-white sm:text-lg">الصناعة والمقاولات</h2>
 <p class="mt-2.5 text-sm leading-6 text-white/55">إدارة خطوط الإنتاج، تكاليف المشاريع، البنية التحتية والمستودعات الضخمة.</p>
-<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#67e8f9]">
+<span class="mt-auto inline-flex items-center gap-2 pt-4 text-sm font-semibold text-white/70 transition-colors group-hover:text-[#00d4ff]">
                     تفاصيل القطاع
                     <svg class="h-4 w-4 transition-transform group-hover:-translate-x-1" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M10.293 4.293a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L13.586 11H4a1 1 0 110-2h9.586l-3.293-3.293a1 1 0 010-1.414z" fill-rule="evenodd"></path></svg>
 </span>
@@ -640,18 +640,18 @@
 </div>
 </div>
 </section>
-<section aria-label="تفاصيل القطاعات" class="industries-deep relative overflow-hidden border-t border-white/[0.06] bg-[#0a1224] py-14 sm:py-16 lg:py-20" dir="rtl" lang="ar">
-<div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#67e8f9]/40 to-transparent"></div>
+<section aria-label="تفاصيل القطاعات" class="industries-deep relative overflow-hidden border-t border-white/[0.06] bg-[#07121f] py-14 sm:py-16 lg:py-20" dir="rtl" lang="ar">
+<div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#00d4ff]/40 to-transparent"></div>
 <div class="relative mx-auto max-w-6xl space-y-10 px-5 sm:px-8 lg:space-y-12">
 <article class="liquid-glass liquid-glass--rounded-2xl relative grid items-center gap-8 overflow-hidden p-6 sm:p-8 lg:grid-cols-12 lg:gap-10 lg:p-10" data-reveal="" id="healthcare">
 <div class="space-y-4 text-right lg:col-span-7">
-<span class="inline-flex rounded-lg border border-[#67e8f9]/30 bg-[#60a5fa]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#67e8f9] uppercase">
+<span class="inline-flex rounded-lg border border-[#00d4ff]/30 bg-[#00b8e8]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#00d4ff] uppercase">
                     SECTOR // HEALTHCARE &amp; MEDICAL
                 </span>
 <h2 class="text-2xl font-bold leading-snug text-white sm:text-3xl">القطاع الطبي والخدمات الصحية</h2>
 <p class="text-sm leading-7 text-white/50 sm:text-base sm:leading-8">تحول رقمي شامل للمستشفيات والعيادات والمجمعات الطبية يضمن سلامة البيانات وكفاءة خدمة المريض.</p>
 <div class="space-y-2 pt-2">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// التحديات التي نحلها في هذا القطاع:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// التحديات التي نحلها في هذا القطاع:</h3>
 <ul class="space-y-1.5">
 <li class="flex items-start gap-2.5 text-sm text-white/55">
 <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#f43f5e]/80"></span>
@@ -668,30 +668,30 @@
 </ul>
 </div>
 <div class="space-y-2 pt-3">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// المنظومة التقنية الموصى بها:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// المنظومة التقنية الموصى بها:</h3>
 <div class="flex flex-wrap gap-2">
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ نظام EMR الطبي</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ تطبيق مواعيد المرضى</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ كاميرات المراقبة CCTV والتحكم بالدخول</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ نظام EMR الطبي</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ تطبيق مواعيد المرضى</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ كاميرات المراقبة CCTV والتحكم بالدخول</span>
 </div>
 </div>
-<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#60a5fa]/35 bg-linear-to-l from-[#60a5fa] to-[#3b82f6] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(96,165,250,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
+<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#00d4ff]/40 bg-linear-to-l from-[#00d4ff] to-[#0088c0] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(0,180,232,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
                     اطلب حلولاً لقطاعك
                 </a>
 </div>
-<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#60a5fa]/20 bg-[#070d1e] p-2 lg:col-span-5">
+<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#00b8e8]/20 bg-[#070d1e] p-2 lg:col-span-5">
 <img alt="القطاع الطبي والخدمات الصحية" class="h-full w-full rounded-xl object-cover opacity-90" decoding="async" height="480" loading="lazy" src="images/industry-healthcare.jpg" width="640"/>
 </div>
 </article>
 <article class="liquid-glass liquid-glass--rounded-2xl relative grid items-center gap-8 overflow-hidden p-6 sm:p-8 lg:grid-cols-12 lg:gap-10 lg:p-10" data-reveal="" id="restaurants">
 <div class="space-y-4 text-right lg:col-span-7 lg:order-2">
-<span class="inline-flex rounded-lg border border-[#67e8f9]/30 bg-[#60a5fa]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#67e8f9] uppercase">
+<span class="inline-flex rounded-lg border border-[#00d4ff]/30 bg-[#00b8e8]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#00d4ff] uppercase">
                     SECTOR // RESTAURANTS &amp; HOSPITALITY
                 </span>
 <h2 class="text-2xl font-bold leading-snug text-white sm:text-3xl">المطاعم والمقاهي والأغذية</h2>
 <p class="text-sm leading-7 text-white/50 sm:text-base sm:leading-8">أنظمة نقاط بيع سريعة وتكامل تام بين طلبات المطبخ، تطبيقات التوصيل، والمستودع.</p>
 <div class="space-y-2 pt-2">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// التحديات التي نحلها في هذا القطاع:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// التحديات التي نحلها في هذا القطاع:</h3>
 <ul class="space-y-1.5">
 <li class="flex items-start gap-2.5 text-sm text-white/55">
 <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#f43f5e]/80"></span>
@@ -708,30 +708,30 @@
 </ul>
 </div>
 <div class="space-y-2 pt-3">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// المنظومة التقنية الموصى بها:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// المنظومة التقنية الموصى بها:</h3>
 <div class="flex flex-wrap gap-2">
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ نظام POS المطاعم</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ شاشات KDS المطبخ</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ نظام المخزون والتكاليف</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ نظام POS المطاعم</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ شاشات KDS المطبخ</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ نظام المخزون والتكاليف</span>
 </div>
 </div>
-<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#60a5fa]/35 bg-linear-to-l from-[#60a5fa] to-[#3b82f6] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(96,165,250,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
+<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#00d4ff]/40 bg-linear-to-l from-[#00d4ff] to-[#0088c0] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(0,180,232,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
                     اطلب حلولاً لقطاعك
                 </a>
 </div>
-<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#60a5fa]/20 bg-[#070d1e] p-2 lg:col-span-5 lg:order-1">
+<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#00b8e8]/20 bg-[#070d1e] p-2 lg:col-span-5 lg:order-1">
 <img alt="المطاعم والمقاهي والأغذية" class="h-full w-full rounded-xl object-cover opacity-90" decoding="async" height="480" loading="lazy" src="images/industry-restaurants.jpg" width="640"/>
 </div>
 </article>
 <article class="liquid-glass liquid-glass--rounded-2xl relative grid items-center gap-8 overflow-hidden p-6 sm:p-8 lg:grid-cols-12 lg:gap-10 lg:p-10" data-reveal="" id="retail">
 <div class="space-y-4 text-right lg:col-span-7">
-<span class="inline-flex rounded-lg border border-[#67e8f9]/30 bg-[#60a5fa]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#67e8f9] uppercase">
+<span class="inline-flex rounded-lg border border-[#00d4ff]/30 bg-[#00b8e8]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#00d4ff] uppercase">
                     SECTOR // RETAIL &amp; COMMERCE
                 </span>
 <h2 class="text-2xl font-bold leading-snug text-white sm:text-3xl">التجزئة والتجارة</h2>
 <p class="text-sm leading-7 text-white/50 sm:text-base sm:leading-8">ربط الفروع والمتاجر الإلكترونية مع المخازن وأنظمة المحاسبة والربط مع هيئة الزكاة.</p>
 <div class="space-y-2 pt-2">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// التحديات التي نحلها في هذا القطاع:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// التحديات التي نحلها في هذا القطاع:</h3>
 <ul class="space-y-1.5">
 <li class="flex items-start gap-2.5 text-sm text-white/55">
 <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#f43f5e]/80"></span>
@@ -748,30 +748,30 @@
 </ul>
 </div>
 <div class="space-y-2 pt-3">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// المنظومة التقنية الموصى بها:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// المنظومة التقنية الموصى بها:</h3>
 <div class="flex flex-wrap gap-2">
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ متجر إلكتروني حديث</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ نظام ERP للمخازن والمبيعات</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ أنظمة الحضور والانصراف</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ متجر إلكتروني حديث</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ نظام ERP للمخازن والمبيعات</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ أنظمة الحضور والانصراف</span>
 </div>
 </div>
-<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#60a5fa]/35 bg-linear-to-l from-[#60a5fa] to-[#3b82f6] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(96,165,250,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
+<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#00d4ff]/40 bg-linear-to-l from-[#00d4ff] to-[#0088c0] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(0,180,232,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
                     اطلب حلولاً لقطاعك
                 </a>
 </div>
-<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#60a5fa]/20 bg-[#070d1e] p-2 lg:col-span-5">
+<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#00b8e8]/20 bg-[#070d1e] p-2 lg:col-span-5">
 <img alt="التجزئة والتجارة" class="h-full w-full rounded-xl object-cover opacity-90" decoding="async" height="480" loading="lazy" src="images/industry-retail.jpg" width="640"/>
 </div>
 </article>
 <article class="liquid-glass liquid-glass--rounded-2xl relative grid items-center gap-8 overflow-hidden p-6 sm:p-8 lg:grid-cols-12 lg:gap-10 lg:p-10" data-reveal="" id="corporate">
 <div class="space-y-4 text-right lg:col-span-7 lg:order-2">
-<span class="inline-flex rounded-lg border border-[#67e8f9]/30 bg-[#60a5fa]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#67e8f9] uppercase">
+<span class="inline-flex rounded-lg border border-[#00d4ff]/30 bg-[#00b8e8]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#00d4ff] uppercase">
                     SECTOR // CORPORATE &amp; PROFESSIONAL SERVICES
                 </span>
 <h2 class="text-2xl font-bold leading-snug text-white sm:text-3xl">الشركات وخدمات الأعمال</h2>
 <p class="text-sm leading-7 text-white/50 sm:text-base sm:leading-8">بنية تحتية برمجية وشبكية متكاملة تضمن استقرار العمليات وأتمتة دورات المبيعات والمالية.</p>
 <div class="space-y-2 pt-2">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// التحديات التي نحلها في هذا القطاع:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// التحديات التي نحلها في هذا القطاع:</h3>
 <ul class="space-y-1.5">
 <li class="flex items-start gap-2.5 text-sm text-white/55">
 <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#f43f5e]/80"></span>
@@ -788,30 +788,30 @@
 </ul>
 </div>
 <div class="space-y-2 pt-3">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// المنظومة التقنية الموصى بها:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// المنظومة التقنية الموصى بها:</h3>
 <div class="flex flex-wrap gap-2">
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ نظام CRM المبيعات</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ تجهيز خوادم وشبكات المؤسسات</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ نظام HR والرواتب</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ نظام CRM المبيعات</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ تجهيز خوادم وشبكات المؤسسات</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ نظام HR والرواتب</span>
 </div>
 </div>
-<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#60a5fa]/35 bg-linear-to-l from-[#60a5fa] to-[#3b82f6] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(96,165,250,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
+<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#00d4ff]/40 bg-linear-to-l from-[#00d4ff] to-[#0088c0] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(0,180,232,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
                     اطلب حلولاً لقطاعك
                 </a>
 </div>
-<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#60a5fa]/20 bg-[#070d1e] p-2 lg:col-span-5 lg:order-1">
+<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#00b8e8]/20 bg-[#070d1e] p-2 lg:col-span-5 lg:order-1">
 <img alt="الشركات وخدمات الأعمال" class="h-full w-full rounded-xl object-cover opacity-90" decoding="async" height="480" loading="lazy" src="images/industry-corporate.jpg" width="640"/>
 </div>
 </article>
 <article class="liquid-glass liquid-glass--rounded-2xl relative grid items-center gap-8 overflow-hidden p-6 sm:p-8 lg:grid-cols-12 lg:gap-10 lg:p-10" data-reveal="" id="education">
 <div class="space-y-4 text-right lg:col-span-7">
-<span class="inline-flex rounded-lg border border-[#67e8f9]/30 bg-[#60a5fa]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#67e8f9] uppercase">
+<span class="inline-flex rounded-lg border border-[#00d4ff]/30 bg-[#00b8e8]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#00d4ff] uppercase">
                     SECTOR // EDUCATION &amp; ACADEMIES
                 </span>
 <h2 class="text-2xl font-bold leading-snug text-white sm:text-3xl">التعليم والتدريب</h2>
 <p class="text-sm leading-7 text-white/50 sm:text-base sm:leading-8">منصات إلكترونية ومباني رقمية آمنة للمدارس والمعاهد والمراكز التعليمية.</p>
 <div class="space-y-2 pt-2">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// التحديات التي نحلها في هذا القطاع:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// التحديات التي نحلها في هذا القطاع:</h3>
 <ul class="space-y-1.5">
 <li class="flex items-start gap-2.5 text-sm text-white/55">
 <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#f43f5e]/80"></span>
@@ -828,30 +828,30 @@
 </ul>
 </div>
 <div class="space-y-2 pt-3">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// المنظومة التقنية الموصى بها:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// المنظومة التقنية الموصى بها:</h3>
 <div class="flex flex-wrap gap-2">
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ منصة تعليمية Portal</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ نظام الفواتير المدرسية</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ أنظمة كاميرات المراقبة وحضور الطلاب</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ منصة تعليمية Portal</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ نظام الفواتير المدرسية</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ أنظمة كاميرات المراقبة وحضور الطلاب</span>
 </div>
 </div>
-<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#60a5fa]/35 bg-linear-to-l from-[#60a5fa] to-[#3b82f6] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(96,165,250,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
+<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#00d4ff]/40 bg-linear-to-l from-[#00d4ff] to-[#0088c0] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(0,180,232,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
                     اطلب حلولاً لقطاعك
                 </a>
 </div>
-<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#60a5fa]/20 bg-[#070d1e] p-2 lg:col-span-5">
+<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#00b8e8]/20 bg-[#070d1e] p-2 lg:col-span-5">
 <img alt="التعليم والتدريب" class="h-full w-full rounded-xl object-cover opacity-90" decoding="async" height="480" loading="lazy" src="images/industry-education.jpg" width="640"/>
 </div>
 </article>
 <article class="liquid-glass liquid-glass--rounded-2xl relative grid items-center gap-8 overflow-hidden p-6 sm:p-8 lg:grid-cols-12 lg:gap-10 lg:p-10" data-reveal="" id="industrial">
 <div class="space-y-4 text-right lg:col-span-7 lg:order-2">
-<span class="inline-flex rounded-lg border border-[#67e8f9]/30 bg-[#60a5fa]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#67e8f9] uppercase">
+<span class="inline-flex rounded-lg border border-[#00d4ff]/30 bg-[#00b8e8]/15 px-3 py-1 font-mono text-[10px] tracking-wider text-[#00d4ff] uppercase">
                     SECTOR // INDUSTRIAL &amp; CONTRACTING
                 </span>
 <h2 class="text-2xl font-bold leading-snug text-white sm:text-3xl">الصناعة والمقاولات</h2>
 <p class="text-sm leading-7 text-white/50 sm:text-base sm:leading-8">إدارة خطوط الإنتاج، تكاليف المشاريع، البنية التحتية والمستودعات الضخمة.</p>
 <div class="space-y-2 pt-2">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// التحديات التي نحلها في هذا القطاع:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// التحديات التي نحلها في هذا القطاع:</h3>
 <ul class="space-y-1.5">
 <li class="flex items-start gap-2.5 text-sm text-white/55">
 <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#f43f5e]/80"></span>
@@ -868,33 +868,33 @@
 </ul>
 </div>
 <div class="space-y-2 pt-3">
-<h3 class="font-mono text-xs text-[#67e8f9]">/// المنظومة التقنية الموصى بها:</h3>
+<h3 class="font-mono text-xs text-[#00d4ff]">/// المنظومة التقنية الموصى بها:</h3>
 <div class="flex flex-wrap gap-2">
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ نظام ERP للمقاولات والمصانع</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ تطبيقات تتبع ميداني</span>
-<span class="inline-flex items-center rounded-lg border border-[#60a5fa]/30 bg-[#60a5fa]/10 px-3 py-1.5 text-xs font-medium text-[#a5f3fc]">✓ تمديدات الشبكات الهيكلية Structured Cabling</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ نظام ERP للمقاولات والمصانع</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ تطبيقات تتبع ميداني</span>
+<span class="inline-flex items-center rounded-lg border border-[#00b8e8]/30 bg-[#00b8e8]/10 px-3 py-1.5 text-xs font-medium text-[#9aefff]">✓ تمديدات الشبكات الهيكلية Structured Cabling</span>
 </div>
 </div>
-<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#60a5fa]/35 bg-linear-to-l from-[#60a5fa] to-[#3b82f6] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(96,165,250,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
+<a class="mt-4 inline-flex items-center justify-center rounded-xl border border-[#00d4ff]/40 bg-linear-to-l from-[#00d4ff] to-[#0088c0] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(0,180,232,0.28)] transition-all duration-300 hover:-translate-y-0.5" href="contact-us.html">
                     اطلب حلولاً لقطاعك
                 </a>
 </div>
-<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#60a5fa]/20 bg-[#070d1e] p-2 lg:col-span-5 lg:order-1">
+<div class="aspect-[4/3] overflow-hidden rounded-2xl border border-[#00b8e8]/20 bg-[#070d1e] p-2 lg:col-span-5 lg:order-1">
 <img alt="الصناعة والمقاولات" class="h-full w-full rounded-xl object-cover opacity-90" decoding="async" height="480" loading="lazy" src="images/industry-industrial.jpg" width="640"/>
 </div>
 </article>
 </div>
 </section>
-<section aria-labelledby="contact-cta-title" class="contact-cta relative overflow-hidden border-t border-white/[0.06] bg-[#0a1224] py-16 sm:py-20 lg:py-24" dir="rtl" id="contact-cta" itemscope="" itemtype="https://schema.org/ProfessionalService" lang="ar">
+<section aria-labelledby="contact-cta-title" class="contact-cta relative overflow-hidden border-t border-white/[0.06] bg-[#07121f] py-16 sm:py-20 lg:py-24" dir="rtl" id="contact-cta" itemscope="" itemtype="https://schema.org/ProfessionalService" lang="ar">
 <meta content="Digital Track" itemprop="name"/>
 <meta content="نساعد الشركات ورواد الأعمال يبنون منتجات رقمية — من تطوير المواقع والتطبيقات لين تصميم تجربة المستخدم ودمج البنية التحتية. استشارة مجانية نحوّل فيها فكرتك لمنتج يكبر معك." itemprop="description"/>
 <meta content="info@digital-track.com" itemprop="email"/>
 <meta content="+966501281585" itemprop="telephone"/>
 <p class="sr-only">تواصل مع Digital Track لاستشارة مجانية في بناء منتجك الرقمي: نموذج طلب سريع، واتساب، هاتف، وبريد إلكتروني. نساعدك تحوّل فكرتك لموقع، تطبيق، أو نظام ذكي — CTA واضح تبدأ فيه مشروعك الحين.</p>
-<div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#67e8f9]/40 to-transparent"></div>
-<div aria-hidden="true" class="contact-cta__shape contact-cta__shape--1 pointer-events-none absolute top-20 right-0 h-72 w-72 rounded-full bg-[#67e8f9]/8 blur-[100px]"></div>
-<div aria-hidden="true" class="contact-cta__shape contact-cta__shape--2 pointer-events-none absolute bottom-10 left-0 h-64 w-64 rounded-full bg-[#67e8f9]/6 blur-[90px]"></div>
-<div aria-hidden="true" class="contact-cta__shape contact-cta__shape--3 pointer-events-none absolute top-1/2 left-1/2 h-48 w-48 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#67e8f9]/5 blur-[80px]"></div>
+<div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#00d4ff]/40 to-transparent"></div>
+<div aria-hidden="true" class="contact-cta__shape contact-cta__shape--1 pointer-events-none absolute top-20 right-0 h-72 w-72 rounded-full bg-[#00d4ff]/8 blur-[100px]"></div>
+<div aria-hidden="true" class="contact-cta__shape contact-cta__shape--2 pointer-events-none absolute bottom-10 left-0 h-64 w-64 rounded-full bg-[#00d4ff]/6 blur-[90px]"></div>
+<div aria-hidden="true" class="contact-cta__shape contact-cta__shape--3 pointer-events-none absolute top-1/2 left-1/2 h-48 w-48 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#00d4ff]/5 blur-[80px]"></div>
 <div class="contact-cta__inner relative mx-auto max-w-6xl px-5 sm:px-8">
 <div class="grid items-start gap-10 lg:grid-cols-2 lg:gap-12 xl:gap-14">
 <div class="order-2 lg:order-1">
@@ -962,16 +962,16 @@
 </form>
 <p class="mt-4 text-center text-xs text-white/35">
             أو تقدر تراسلنا مباشرة على
-            <a class="font-medium text-[#67e8f9]/80 transition-colors hover:text-[#67e8f9]" dir="ltr" href="mailto:info@digital-track.com">info@digital-track.com</a>
+            <a class="font-medium text-[#00d4ff]/80 transition-colors hover:text-[#00d4ff]" dir="ltr" href="mailto:info@digital-track.com">info@digital-track.com</a>
 </p>
 </div>
 </div>
 </div>
 <header class="order-1 lg:order-2">
-<p class="text-xs font-medium tracking-[0.18em] text-[#67e8f9] uppercase" data-reveal="" data-reveal-delay="80" id="contact-cta-eyebrow">
+<p class="text-xs font-medium tracking-[0.18em] text-[#00d4ff] uppercase" data-reveal="" data-reveal-delay="80" id="contact-cta-eyebrow">
                     استشارة مجانية
                 </p>
-<h2 class="mt-2 bg-linear-to-l from-white via-[#e0f2fe] to-[#a5f3fc] bg-clip-text text-2xl font-semibold leading-snug text-transparent sm:text-3xl" data-reveal="" data-reveal-delay="160" id="contact-cta-title">
+<h2 class="mt-2 bg-linear-to-l from-white via-[#e0f2fe] to-[#9aefff] bg-clip-text text-2xl font-semibold leading-snug text-transparent sm:text-3xl" data-reveal="" data-reveal-delay="160" id="contact-cta-title">
                     يلا نبني منتجك الجاي
                 </h2>
 <p class="mt-4 text-sm leading-7 text-white/45 sm:text-base sm:leading-8" data-reveal="" data-reveal-delay="240">
@@ -979,7 +979,7 @@
                 </p>
 <nav aria-label="قنوات التواصل مع Digital Track" class="mt-8 space-y-2.5 sm:mt-10">
 <a class="contact-cta__channel liquid-glass liquid-glass--rounded-xl group flex items-start gap-3 p-3.5 transition-all duration-300 sm:p-4" data-reveal="" data-reveal-delay="320" href="https://wa.me/966501281585" rel="noopener noreferrer" target="_blank">
-<div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg transition-transform duration-300 group-hover:scale-105 bg-[#67e8f9]/10 text-[#67e8f9]">
+<div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg transition-transform duration-300 group-hover:scale-105 bg-[#00d4ff]/10 text-[#00d4ff]">
 <svg class="h-4 w-4" fill="currentColor" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg> </div>
 <div class="min-w-0 flex-1">
 <p class="text-xs font-medium text-white/45">واتساب</p>
@@ -990,7 +990,7 @@
 </div>
 </a>
 <a class="contact-cta__channel liquid-glass liquid-glass--rounded-xl group flex items-start gap-3 p-3.5 transition-all duration-300 sm:p-4" data-reveal="" data-reveal-delay="380" href="tel:+966501281585">
-<div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg transition-transform duration-300 group-hover:scale-105 bg-[#67e8f9]/10 text-[#67e8f9]">
+<div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg transition-transform duration-300 group-hover:scale-105 bg-[#00d4ff]/10 text-[#00d4ff]">
 <svg aria-hidden="true" class="h-4 w-4" data-slot="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg> </div>
@@ -1003,7 +1003,7 @@
 </div>
 </a>
 <a class="contact-cta__channel liquid-glass liquid-glass--rounded-xl group flex items-start gap-3 p-3.5 transition-all duration-300 sm:p-4" data-reveal="" data-reveal-delay="440" href="mailto:info@digital-track.com">
-<div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg transition-transform duration-300 group-hover:scale-105 bg-[#67e8f9]/10 text-[#67e8f9]">
+<div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg transition-transform duration-300 group-hover:scale-105 bg-[#00d4ff]/10 text-[#00d4ff]">
 <svg aria-hidden="true" class="h-4 w-4" data-slot="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg> </div>
@@ -1021,24 +1021,24 @@
 </div>
 </section>
 </main>
-<footer class="site-footer relative overflow-hidden border-t border-white/[0.06] bg-[#0a1224]" dir="rtl" lang="ar" role="contentinfo">
-<div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#67e8f9]/35 to-transparent"></div>
-<div aria-hidden="true" class="pointer-events-none absolute -top-24 right-0 h-56 w-56 rounded-full bg-[#67e8f9]/6 blur-[100px]"></div>
-<div aria-hidden="true" class="pointer-events-none absolute bottom-0 left-0 h-48 w-48 rounded-full bg-[#67e8f9]/5 blur-[90px]"></div>
+<footer class="site-footer relative overflow-hidden border-t border-white/[0.06] bg-[#07121f]" dir="rtl" lang="ar" role="contentinfo">
+<div aria-hidden="true" class="pointer-events-none absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-[#00d4ff]/35 to-transparent"></div>
+<div aria-hidden="true" class="pointer-events-none absolute -top-24 right-0 h-56 w-56 rounded-full bg-[#00d4ff]/6 blur-[100px]"></div>
+<div aria-hidden="true" class="pointer-events-none absolute bottom-0 left-0 h-48 w-48 rounded-full bg-[#00d4ff]/5 blur-[90px]"></div>
 <div class="site-footer__inner relative mx-auto max-w-6xl px-5 py-14 sm:px-8 sm:py-16 lg:py-20">
 <div class="grid gap-10 lg:grid-cols-12 lg:gap-8 xl:gap-10">
 <div class="lg:col-span-5" data-reveal="">
 <a aria-label="المسار الرقمي | Digital Track — الرئيسية" class="inline-block" href="index.html">
-<img alt="المسار الرقمي | Digital Track" class="h-8 w-auto object-contain sm:h-9" decoding="async" height="40" loading="lazy" src="images/digital-track-logo.jpg" width="120"/>
+<img alt="المسار الرقمي | Digital Track" class="h-12 w-auto object-contain sm:h-14" decoding="async" height="40" loading="lazy" src="images/digital-track-logo.png" width="120" style="height:3.15rem;width:auto;max-width:9.5rem;object-fit:contain;display:block">
 </a>
-<p class="mt-4 text-sm font-medium leading-relaxed text-[#67e8f9]">
+<p class="mt-4 text-sm font-medium leading-relaxed text-[#00d4ff]">
                     من الفكرة إلى الإطلاق، نصنع منتجات رقمية تحقق قيمة حقيقية لأعمالك.
                 </p>
 <p class="mt-3 max-w-md text-sm leading-7 text-white/45">
                     نصمم ونطوّر مواقع وتطبيقات وأنظمة رقمية — بتجربة مستخدم مدروسة وذكاء اصطناعي يُضاف حيث يخلق قيمة حقيقية.
                 </p>
 <div class="mt-6 flex flex-wrap items-center gap-4">
-<a class="inline-flex items-center justify-center rounded-xl border border-[#60a5fa]/35 bg-linear-to-l from-[#60a5fa] to-[#3b82f6] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(96,165,250,0.28)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_32px_rgba(59,130,246,0.38)]" href="index.html#contact-cta">
+<a class="inline-flex items-center justify-center rounded-xl border border-[#00d4ff]/40 bg-linear-to-l from-[#00d4ff] to-[#0088c0] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_8px_24px_rgba(0,180,232,0.28)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_12px_32px_rgba(0,144,200,0.38)]" href="index.html#contact-cta">
                         ابدأ مسارك الرقمي
                     </a>
 <nav aria-label="حسابات التواصل الاجتماعي" class="social-links flex flex-wrap items-center gap-2.5">
@@ -1076,7 +1076,7 @@
 </a>
 </li>
 <li>
-<a class="site-footer__link inline-flex min-h-[24px] items-center py-1 text-sm text-white/45 transition-colors duration-200 hover:text-white/80 text-[#67e8f9]/70 hover:text-[#67e8f9]" href="services.html">
+<a class="site-footer__link inline-flex min-h-[24px] items-center py-1 text-sm text-white/45 transition-colors duration-200 hover:text-white/80 text-[#00d4ff]/70 hover:text-[#00d4ff]" href="services.html">
     كل الخدمات
 </a>
 </li>
@@ -1120,7 +1120,7 @@
 <ul class="mt-4 space-y-3">
 <li>
 <a class="group flex items-start gap-2.5 text-sm text-white/45 transition-colors duration-200 hover:text-white/80" href="mailto:info@digital-track.com">
-<span class="mt-px flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-white/55 transition-colors duration-200 group-hover:border-[#67e8f9]/30 group-hover:text-[#67e8f9]">
+<span class="mt-px flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-white/55 transition-colors duration-200 group-hover:border-[#00d4ff]/30 group-hover:text-[#00d4ff]">
 <svg aria-hidden="true" class="h-3.5 w-3.5" data-slot="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg> </span>
@@ -1129,7 +1129,7 @@
 </li>
 <li>
 <a class="group flex items-start gap-2.5 text-sm text-white/45 transition-colors duration-200 hover:text-white/80" href="tel:+966501281585">
-<span class="mt-px flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-white/55 transition-colors duration-200 group-hover:border-[#67e8f9]/30 group-hover:text-[#67e8f9]">
+<span class="mt-px flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-white/55 transition-colors duration-200 group-hover:border-[#00d4ff]/30 group-hover:text-[#00d4ff]">
 <svg aria-hidden="true" class="h-3.5 w-3.5" data-slot="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg> </span>
@@ -1138,14 +1138,14 @@
 </li>
 <li>
 <a class="group flex items-start gap-2.5 text-sm text-white/45 transition-colors duration-200 hover:text-white/80" href="https://wa.me/966501281585" rel="noopener noreferrer" target="_blank">
-<span class="mt-px flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-white/55 transition-colors duration-200 group-hover:border-[#67e8f9]/30 group-hover:text-[#67e8f9]">
+<span class="mt-px flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-white/55 transition-colors duration-200 group-hover:border-[#00d4ff]/30 group-hover:text-[#00d4ff]">
 <svg class="h-3.5 w-3.5" fill="currentColor" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path></svg> </span>
 <span class="leading-6 text-right" dir="ltr">+966 50 128 1585</span>
 </a>
 </li>
 <li>
 <a class="group flex items-start gap-2.5 text-sm text-white/45 transition-colors duration-200 hover:text-white/80" href="https://www.google.com/maps/search/?api=1&amp;query=%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%20%D8%AD%D9%8A%20%D8%A7%D9%84%D9%8A%D8%A7%D8%B3%D9%85%D9%8A%D9%86%20%D8%B7%D8%B1%D9%8A%D9%82%20%D8%A3%D9%86%D8%B3%20%D8%A8%D9%86%20%D9%85%D8%A7%D9%84%D9%83" rel="noopener noreferrer" target="_blank">
-<span class="mt-px flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-white/55 transition-colors duration-200 group-hover:border-[#67e8f9]/30 group-hover:text-[#67e8f9]">
+<span class="mt-px flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-white/[0.08] bg-white/[0.03] text-white/55 transition-colors duration-200 group-hover:border-[#00d4ff]/30 group-hover:text-[#00d4ff]">
 <svg aria-hidden="true" class="h-3.5 w-3.5" data-slot="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
 <path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1154,7 +1154,7 @@
 </a>
 </li>
 </ul>
-<a class="site-footer__link inline-flex min-h-[24px] items-center py-1 text-sm text-white/45 transition-colors duration-200 hover:text-white/80 mt-4 font-medium text-[#67e8f9]/70 hover:text-[#67e8f9]" href="contact-us.html">
+<a class="site-footer__link inline-flex min-h-[24px] items-center py-1 text-sm text-white/45 transition-colors duration-200 hover:text-white/80 mt-4 font-medium text-[#00d4ff]/70 hover:text-[#00d4ff]" href="contact-us.html">
     تواصل معنا
 </a>
 </div>
@@ -1176,29 +1176,29 @@
 </div>
 </footer>
 <div aria-label="إجراءات سريعة للتواصل" class="floating-actions fixed bottom-5 right-4 z-40 flex flex-col items-center gap-3.5 sm:bottom-6 sm:right-6" dir="rtl">
-<a aria-label="احجز استشارتك المجانية الآن" class="floating-actions__btn floating-actions__btn--consultation group relative flex h-14 w-14 items-center justify-center rounded-full text-white ring-1 ring-white/15 backdrop-blur-sm transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-[1.08] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 motion-safe:[animation:fa-enter_.55s_cubic-bezier(0.34,1.56,0.64,1)_.28s_both] shadow-[0_8px_24px_rgba(96,165,250,0.45)] hover:shadow-[0_14px_34px_rgba(59,130,246,0.6)]" href="contact-us.html">
-<span class="pointer-events-none absolute right-full top-1/2 mr-3 -translate-y-1/2 translate-x-2 whitespace-nowrap rounded-lg bg-[#0d0d14]/95 px-3 py-1.5 text-[13px] font-semibold text-white opacity-0 shadow-[0_8px_24px_rgba(0,0,0,0.45)] ring-1 ring-white/10 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
+<a aria-label="احجز استشارتك المجانية الآن" class="floating-actions__btn floating-actions__btn--consultation group relative flex h-14 w-14 items-center justify-center rounded-full text-white ring-1 ring-white/15 backdrop-blur-sm transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-[1.08] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 motion-safe:[animation:fa-enter_.55s_cubic-bezier(0.34,1.56,0.64,1)_.28s_both] shadow-[0_8px_24px_rgba(0,180,232,0.45)] hover:shadow-[0_14px_34px_rgba(0,144,200,0.6)]" href="contact-us.html">
+<span class="pointer-events-none absolute right-full top-1/2 mr-3 -translate-y-1/2 translate-x-2 whitespace-nowrap rounded-lg bg-[#0a1524]/95 px-3 py-1.5 text-[13px] font-semibold text-white opacity-0 shadow-[0_8px_24px_rgba(0,0,0,0.45)] ring-1 ring-white/10 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                 احجز استشارتك المجانية
-                <span aria-hidden="true" class="absolute right-[-5px] top-1/2 h-2.5 w-2.5 -translate-y-1/2 rotate-45 bg-[#0d0d14]/95 ring-1 ring-white/10"></span>
+                <span aria-hidden="true" class="absolute right-[-5px] top-1/2 h-2.5 w-2.5 -translate-y-1/2 rotate-45 bg-[#0a1524]/95 ring-1 ring-white/10"></span>
 </span>
-<span aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-full bg-linear-to-br from-[#60a5fa] to-[#3b82f6]"></span>
-<span aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-full bg-[#3b82f6] motion-safe:[animation:fa-ring_2.6s_cubic-bezier(0.4,0,0.6,1)_infinite]"></span>
+<span aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-full bg-linear-to-br from-[#00d4ff] to-[#0088c0]"></span>
+<span aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-full bg-[#0090c8] motion-safe:[animation:fa-ring_2.6s_cubic-bezier(0.4,0,0.6,1)_infinite]"></span>
 <svg aria-hidden="true" class="relative h-6 w-6 shrink-0" data-slot="icon" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" stroke-linecap="round" stroke-linejoin="round"></path>
 </svg> </a>
 <a aria-label="اتصل بنا هاتفياً" class="floating-actions__btn floating-actions__btn--phone group relative flex h-14 w-14 items-center justify-center rounded-full text-white ring-1 ring-white/15 backdrop-blur-sm transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-[1.08] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 motion-safe:[animation:fa-enter_.55s_cubic-bezier(0.34,1.56,0.64,1)_.16s_both] shadow-[0_8px_24px_rgba(53,179,133,0.45)] hover:shadow-[0_14px_34px_rgba(53,179,133,0.6)]" href="tel:+966501281585">
-<span class="pointer-events-none absolute right-full top-1/2 mr-3 -translate-y-1/2 translate-x-2 whitespace-nowrap rounded-lg bg-[#0d0d14]/95 px-3 py-1.5 text-[13px] font-semibold text-white opacity-0 shadow-[0_8px_24px_rgba(0,0,0,0.45)] ring-1 ring-white/10 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
+<span class="pointer-events-none absolute right-full top-1/2 mr-3 -translate-y-1/2 translate-x-2 whitespace-nowrap rounded-lg bg-[#0a1524]/95 px-3 py-1.5 text-[13px] font-semibold text-white opacity-0 shadow-[0_8px_24px_rgba(0,0,0,0.45)] ring-1 ring-white/10 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                 اتصل بنا
-                <span aria-hidden="true" class="absolute right-[-5px] top-1/2 h-2.5 w-2.5 -translate-y-1/2 rotate-45 bg-[#0d0d14]/95 ring-1 ring-white/10"></span>
+                <span aria-hidden="true" class="absolute right-[-5px] top-1/2 h-2.5 w-2.5 -translate-y-1/2 rotate-45 bg-[#0a1524]/95 ring-1 ring-white/10"></span>
 </span>
-<span aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-full bg-linear-to-br from-[#67e8f9] to-[#1f7d5c]"></span>
+<span aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-full bg-linear-to-br from-[#00d4ff] to-[#00e5d0]"></span>
 <svg aria-hidden="true" class="relative h-6 w-6 shrink-0" data-slot="icon" fill="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path clip-rule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" fill-rule="evenodd"></path>
 </svg> </a>
 <a aria-label="تواصل معنا عبر واتساب" class="floating-actions__btn floating-actions__btn--whatsapp group relative flex h-14 w-14 items-center justify-center rounded-full text-white ring-1 ring-white/15 backdrop-blur-sm transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-[1.08] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 motion-safe:[animation:fa-enter_.55s_cubic-bezier(0.34,1.56,0.64,1)_.04s_both] shadow-[0_8px_24px_rgba(37,211,102,0.5)] hover:shadow-[0_14px_34px_rgba(37,211,102,0.65)]" href="https://wa.me/966501281585" rel="noopener noreferrer" target="_blank">
-<span class="pointer-events-none absolute right-full top-1/2 mr-3 -translate-y-1/2 translate-x-2 whitespace-nowrap rounded-lg bg-[#0d0d14]/95 px-3 py-1.5 text-[13px] font-semibold text-white opacity-0 shadow-[0_8px_24px_rgba(0,0,0,0.45)] ring-1 ring-white/10 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
+<span class="pointer-events-none absolute right-full top-1/2 mr-3 -translate-y-1/2 translate-x-2 whitespace-nowrap rounded-lg bg-[#0a1524]/95 px-3 py-1.5 text-[13px] font-semibold text-white opacity-0 shadow-[0_8px_24px_rgba(0,0,0,0.45)] ring-1 ring-white/10 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                 راسلنا على واتساب
-                <span aria-hidden="true" class="absolute right-[-5px] top-1/2 h-2.5 w-2.5 -translate-y-1/2 rotate-45 bg-[#0d0d14]/95 ring-1 ring-white/10"></span>
+                <span aria-hidden="true" class="absolute right-[-5px] top-1/2 h-2.5 w-2.5 -translate-y-1/2 rotate-45 bg-[#0a1524]/95 ring-1 ring-white/10"></span>
 </span>
 <span aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-full bg-[#25D366]"></span>
 <span aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-full bg-[#25D366] motion-safe:[animation:fa-ring_2.4s_cubic-bezier(0.4,0,0.6,1)_infinite]"></span>
