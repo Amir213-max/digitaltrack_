@@ -7,9 +7,9 @@
   height: 2.5rem;
   flex: none;
   border-radius: 0.75rem;
-  border: 1px solid rgba(10, 31, 77, 0.16);
+  border: 1px solid rgba(3, 13, 84, 0.16);
   background: #fff;
-  color: #0a1f4d;
+  color: #030D54;
   cursor: pointer;
 }
 .theme-toggle svg {
@@ -32,27 +32,27 @@ html[data-theme="light"] body.site-body,
 html[data-theme="light"] .site-body__backdrop,
 html[data-theme="light"] .auth-page,
 html[data-theme="light"] .auth-page__backdrop {
-  background-color: #f4f7fc !important;
-  color: #0a1f4d;
+  background-color: #E6E7EB !important;
+  color: #030D54;
 }
 
 html[data-theme="light"] .site-body__backdrop {
   background-image:
-    radial-gradient(70% 55% at 12% 18%, rgba(29, 95, 214, 0.16), transparent 55%),
-    radial-gradient(60% 50% at 88% 28%, rgba(75, 141, 255, 0.14), transparent 58%) !important;
+    radial-gradient(70% 55% at 12% 18%, rgba(2, 65, 158, 0.16), transparent 55%),
+    radial-gradient(60% 50% at 88% 28%, rgba(2, 65, 158, 0.14), transparent 58%) !important;
 }
 
 html[data-theme="light"] .site-header,
 html[data-theme="light"] .site-header__inner,
 html[data-theme="light"] .site-header--floating {
-  --header-inner-bg: #f7fafe;
-  --header-inner-border: rgba(10, 31, 77, 0.1);
-  --header-inner-shadow: 0 10px 30px rgba(10, 31, 77, 0.08);
+  --header-inner-bg: #F4F5F7;
+  --header-inner-border: rgba(3, 13, 84, 0.1);
+  --header-inner-shadow: 0 10px 30px rgba(3, 13, 84, 0.08);
 }
 
 html[data-theme="light"] .site-header__inner {
-  background: #f7fafe !important;
-  border-color: rgba(10, 31, 77, 0.1) !important;
+  background: #F4F5F7 !important;
+  border-color: rgba(3, 13, 84, 0.1) !important;
 }
 
 html[data-theme="light"] .site-header__logo {
@@ -73,20 +73,20 @@ html[data-theme="light"] footer img[src*="digital-track-logo"] {
 }
 
 html[data-theme="light"] .site-header__toggle {
-  color: #0a1f4d !important;
-  border-color: rgba(10, 31, 77, 0.16) !important;
+  color: #030D54 !important;
+  border-color: rgba(3, 13, 84, 0.16) !important;
   background: #fff !important;
 }
 
 html[data-theme="light"] .site-body > main > section:not(#hero),
 html[data-theme="light"] .site-footer,
 html[data-theme="light"] .site-body > main > article {
-  background-color: #f4f7fc !important;
-  color: #0a1f4d;
+  background-color: #E6E7EB !important;
+  color: #030D54;
 }
 
 /* Darker navy so muted copy stays readable on white */
-html[data-theme="light"] .site-body .text-white { color: #0a1f4d !important; }
+html[data-theme="light"] .site-body .text-white { color: #030D54 !important; }
 html[data-theme="light"] .site-body .text-white\/90 { color: #10264f !important; }
 html[data-theme="light"] .site-body .text-white\/85 { color: #16305c !important; }
 html[data-theme="light"] .site-body .text-white\/80 { color: #1a3768 !important; }
@@ -104,46 +104,46 @@ html[data-theme="light"] .site-body .text-white\/25 { color: #183666 !important;
 html[data-theme="light"] .site-body .text-white\/20 { color: #16325f !important; }
 html[data-theme="light"] .site-body .text-white\/15 { color: #142e58 !important; }
 
-html[data-theme="light"] .site-body :not(#hero) [class*="text-[#4B8DFF]"],
-html[data-theme="light"] .site-body :not(#hero) [class*="text-[#6AA6FF]"],
-html[data-theme="light"] .site-body :not(#hero) [class*="text-[#C5D9FF]"] {
-  color: #164aad !important;
+html[data-theme="light"] .site-body :not(#hero) [class*="text-[#02419E]"],
+html[data-theme="light"] .site-body :not(#hero) [class*="text-[#02419E]"],
+html[data-theme="light"] .site-body :not(#hero) [class*="text-[#D5D6DA]"] {
+  color: #02419E !important;
 }
 
 html[data-theme="light"] .site-body h1.bg-clip-text,
 html[data-theme="light"] .site-body h2.bg-clip-text,
 html[data-theme="light"] .site-body h3.bg-clip-text {
-  background-image: linear-gradient(to left, #0a1f4d, #1d5fd6) !important;
+  background-image: linear-gradient(to left, #030D54, #02419E) !important;
 }
 
 html[data-theme="light"] .site-body main section:not(#hero) [class*="border-white"],
 html[data-theme="light"] .site-footer [class*="border-white"] {
-  border-color: rgba(10, 31, 77, 0.14) !important;
+  border-color: rgba(3, 13, 84, 0.14) !important;
 }
 
 html[data-theme="light"] .site-body main section:not(#hero) .liquid-glass,
 html[data-theme="light"] .site-body main section:not(#hero) article,
 html[data-theme="light"] .site-footer .liquid-glass {
   background: #ffffff !important;
-  border-color: rgba(29, 95, 214, 0.16) !important;
-  box-shadow: 0 16px 40px rgba(10, 31, 77, 0.06) !important;
+  border-color: rgba(2, 65, 158, 0.16) !important;
+  box-shadow: 0 16px 40px rgba(3, 13, 84, 0.06) !important;
 }
 
 html[data-theme="light"] .blog-post__body {
   --blog-text: #1c3d6e;
-  --blog-text-strong: #0a1f4d;
+  --blog-text-strong: #030D54;
   --blog-muted: #2a4d80;
   color: #1c3d6e !important;
 }
 html[data-theme="light"] .blog-post__body h2,
 html[data-theme="light"] .blog-post__body h3,
 html[data-theme="light"] .blog-post__body strong {
-  color: #0a1f4d !important;
+  color: #030D54 !important;
 }
 
 html[data-theme="light"] .site-header nav a[aria-current="page"] {
-  background: rgba(29, 95, 214, 0.12) !important;
-  color: #164aad !important;
+  background: rgba(2, 65, 158, 0.12) !important;
+  color: #02419E !important;
 }
 
 html[data-theme="light"] #hero .text-white { color: #fff !important; }
@@ -157,18 +157,43 @@ html[data-theme="light"] #hero .text-white\/55 { color: rgba(255, 255, 255, 0.55
 html[data-theme="light"] #hero .text-white\/50 { color: rgba(255, 255, 255, 0.5) !important; }
 html[data-theme="light"] #hero .text-white\/45 { color: rgba(255, 255, 255, 0.45) !important; }
 html[data-theme="light"] #hero .text-white\/40 { color: rgba(255, 255, 255, 0.4) !important; }
-html[data-theme="light"] #hero [class*="text-[#4B8DFF]"] { color: #4b8dff !important; }
+html[data-theme="light"] #hero [class*="text-[#02419E]"] { color: #02419E !important; }
 html[data-theme="light"] #hero h1.bg-clip-text,
 html[data-theme="light"] #hero h2.bg-clip-text {
-  background-image: linear-gradient(to left, #fff, #c5d9ff) !important;
+  background-image: linear-gradient(to left, #fff, #D5D6DA) !important;
 }
 
 html[data-theme="light"] .site-header__cta,
-html[data-theme="light"] a[class*="from-[#4B8DFF]"],
-html[data-theme="light"] a[class*="from-[#1D5FD6]"],
-html[data-theme="light"] button[class*="from-[#4B8DFF]"],
+html[data-theme="light"] a[class*="from-[#02419E]"],
+html[data-theme="light"] a[class*="from-[#02419E]"],
+html[data-theme="light"] button[class*="from-[#02419E]"],
 html[data-theme="light"] .floating-actions,
 html[data-theme="light"] .floating-actions a,
 html[data-theme="light"] .floating-actions .text-white {
   color: #fff !important;
+}
+
+/* Identity from المسار التقني: blue #02419E, navy #030D54, lime #D1FF42, gray #D5D6DA */
+html[data-theme="light"] #hero [class*="text-[#02419E]"],
+html[data-theme="dark"] [class*="text-[#02419E]"] {
+  color: #D1FF42 !important;
+}
+
+#hero span[class*="from-[#02419E]"],
+#hero .hero__bar-fill,
+#hero .hero__chart-bar {
+  background-image: linear-gradient(to left, #D1FF42, #02419E) !important;
+}
+
+html[data-theme="light"] a.site-header__cta,
+html[data-theme="dark"] a.site-header__cta,
+html[data-theme="light"] a[class*="from-[#02419E]"][class*="rounded-xl"],
+html[data-theme="dark"] a[class*="from-[#02419E]"][class*="rounded-xl"],
+html[data-theme="light"] button[class*="from-[#02419E]"][class*="rounded-xl"],
+html[data-theme="dark"] button[class*="from-[#02419E]"][class*="rounded-xl"] {
+  background-image: none !important;
+  background-color: #D1FF42 !important;
+  color: #030D54 !important;
+  border-color: #D1FF42 !important;
+  box-shadow: 0 8px 24px rgba(209, 255, 66, 0.28) !important;
 }
